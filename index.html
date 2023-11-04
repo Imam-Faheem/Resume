@@ -4,7 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Resume</title>
- 
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Poppins&family=Roboto&display=swap" rel="stylesheet">
 </head>
 
 
@@ -14,6 +24,9 @@
 
 /* --------Resume------- */
 body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-family:  'Open Sans', 'Roboto', 'Poppins', sans-serif;
+    word-spacing: 1px;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -51,12 +64,14 @@ body {
 .resume-section {
     margin-top: 20px;
     border-top: 2px solid #0077b5;
-    padding-top: 20px;
+    padding: 10px 0px;
+    padding-bottom: 5px;
 }
 .resume-section h2 {
     font-size: 24px;
     color: #0077b5;
     margin-bottom: 10px;
+    font-weight: bold;  
     
 }
 .imos {
@@ -144,6 +159,15 @@ margin-right: 8px;
                 <li><strong>Facebook:</strong> <a href="https://www.facebook.com/happy.rose.9655806">facebook.com/happy.rose.9655806</a></li>
             </ul>
         </div>
+
+         <div class="resume-section">
+            <h2>Profile</h2>
+            <div class="imos"></div>
+
+            <p>
+                Experienced front-end developer, proficient in HTML, CSS, SASS, Bootstrap, Tailwind, JavaScript, and React.js. Passionate about designing visually stunning and user-friendly websites and web applications. Constantly learning and staying up-to-date with industry trends. Excited to network with new professionals and continue growing in my career. Looking forward to connecting with like-minded individuals and exploring new opportunities.
+            </p>
+        </div>
         
         <div class="resume-section">
             <h2>Professional Skills</h2>
@@ -169,26 +193,8 @@ margin-right: 8px;
             </ul>
         </div>
         
-        <div class="resume-section">
-            <h2>Languages</h2>
-            <div class="imos"></div>
-
-            <ul>
-                <li><strong>English:</strong> Proficient</li>
-                <li><strong>Urdu:</strong> Fluent</li>
-                <li><strong>German:</strong> Conversational</li>
-                <li><strong>Pashtu:</strong> Native</li>
-            </ul>
-        </div>
         
-        <div class="resume-section">
-            <h2>Profile</h2>
-            <div class="imos"></div>
-
-            <p>
-                Experienced front-end developer, proficient in HTML, CSS, SASS, Bootstrap, Tailwind, JavaScript, and React.js. Passionate about designing visually stunning and user-friendly websites and web applications. Constantly learning and staying up-to-date with industry trends. Excited to network with new professionals and continue growing in my career. Looking forward to connecting with like-minded individuals and exploring new opportunities.
-            </p>
-        </div>
+       
         
         <div class="resume-section">
             <h2>Experience</h2>
@@ -221,6 +227,19 @@ margin-right: 8px;
                 </li>
             </ul>
         </div>
+
+        <div class="resume-section">
+            <h2>Languages</h2>
+            <div class="imos"></div>
+
+            <ul>
+                <li><strong>English:</strong> Proficient</li>
+                <li><strong>Urdu:</strong> Fluent</li>
+                <li><strong>German:</strong> Conversational</li>
+                <li><strong>Pashtu:</strong> Native</li>
+            </ul>
+        </div>
+        
         
         <div class="resume-section download-button">
             <button id="downloadButton" class="download-link">Download Resume (PDF)</button>
