@@ -10,7 +10,19 @@
 
 <style>
    
+ @font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Open Sans'), local('OpenSans'), url('./OpenSans-Regular.ttf') format('truetype');
+}
 
+@font-face {
+    font-family: 'Open Sans medium';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Open Sans'), local('OpenSans'), url('./OpenSans-Medium.ttf') format('truetype');
+}
 
 /* --------Resume------- */
 body {
@@ -58,6 +70,7 @@ body {
     padding-bottom: 5px;
 }
 .resume-section h2 {
+    font-family:  'Open Sans medium', 'Roboto','Poppins', 'Segoe UI', sans-serif;
     font-size: 24px;
     color: #0077b5;
     margin-bottom: 10px;
@@ -238,7 +251,7 @@ margin-right: 8px;
         </div>
     </div>
 
-    <script>
+<!--     <script>
         // Create a <link> element for the Google Fonts
         var linkElement = document.createElement('link');
         linkElement.rel = 'stylesheet';
@@ -246,7 +259,7 @@ margin-right: 8px;
 
         // Append the <link> element to the <head> section
         document.head.appendChild(linkElement);
-    </script>
+    </script> -->
 
 
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
